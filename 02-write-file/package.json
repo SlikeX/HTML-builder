@@ -1,0 +1,11 @@
+{
+  "name": "02-write-file",
+  "version": "1.0.0",
+  "description": "В файле **index.js** директории **02-write-file** напишите скрипт выводящий в консоль приветствие, ожидающий ввод текста, и записывающий введённый текст в файл.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
