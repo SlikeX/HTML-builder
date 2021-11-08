@@ -14,7 +14,6 @@ async function readDir(){
     for(const file of files){
         let fileExt = path.extname(path.join(dirPath,file.name));
         if(fileExt === '.css'){
-            console.log(path.join(dirPath,file.name))
             const input = fs.createReadStream(path.join(dirPath,file.name));
             input.pipe(output);
         }
